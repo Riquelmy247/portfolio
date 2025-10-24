@@ -1,0 +1,94 @@
+.contact {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  text-align: center;
+  max-width: 600px;
+}
+
+.info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.info p {
+  margin-bottom: 2rem;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.socialLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.socialLink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  min-width: 80px;
+}
+
+.socialLink:hover {
+  background-color: #ff0000;
+  transform: translateY(-5px);
+}
+
+.socialLink i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.socialLink span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+  .socialLinks {
+    gap: 1rem;
+  }
+  .socialLink {
+    min-width: 70px;
+    padding: 0.8rem;
+  }
+  .socialLink i {
+    font-size: 1.5rem;
+  }
+  .socialLink span {
+    font-size: 0.8rem;
+  }
+}
