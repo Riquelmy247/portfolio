@@ -1,5 +1,4 @@
 import styles from '../styles/About.module.css'
-import placeholder from '../assets/placeholder.jpg'
 
 const About = () => {
   return (
@@ -7,7 +6,7 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.image}>
-            <img src={placeholder} alt="Desenvolvedor" />
+            <img src="/assets/placeholder.jpg" alt="Desenvolvedor" />
           </div>
           <div className={styles.text}>
             <h2>Sobre Mim</h2>

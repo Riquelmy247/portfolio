@@ -1,5 +1,4 @@
 import styles from '../styles/Portfolio.module.css'
-import placeholder from '../assets/placeholder.jpg'
 
 const Portfolio = () => {
   const projects = [
@@ -59,7 +58,7 @@ const Portfolio = () => {
       <div className={styles.container}>
         <div className={styles.aboutSection}>
           <div className={styles.image}>
-            <img src={placeholder} alt="Desenvolvedor" />
+            <img src="/assets/placeholder.jpg" alt="Desenvolvedor" />
           </div>
           <div className={styles.text}>
             <h2>Sobre Mim</h2>
