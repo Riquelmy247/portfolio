@@ -6,8 +6,8 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.image}>
-            <img src="/assets/placeholder.jpg" alt="Desenvolvedor" />
-          </div>
+-            <img src={placeholder} alt="Desenvolvedor" />
++          </div>
           <div className={styles.text}>
             <h2>Sobre Mim</h2>
             <p>
