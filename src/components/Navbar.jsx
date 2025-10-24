@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul className={`${styles.navLinks} ${isOpen ? styles.active : ''}`}>
           <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link to="/services" onClick={() => setIsOpen(false)}>Serviços</Link></li>
-          <li><Link to="/portfolio" onClick={() => setIsOpen(false)}>Projetos Criados</Link></li>
+          <li><Link to="/portfolio" onClick={() => setIsOpen(false)}>Portfolio</Link></li>
         </ul>
       </div>
     </nav>
