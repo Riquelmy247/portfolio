@@ -14,6 +14,7 @@ Acesse [http://localhost:5173](http://localhost:5173).
 ## Build para produção
 
 ```bash
+npm run deploy
 npm run build
 npm run preview
 ```
