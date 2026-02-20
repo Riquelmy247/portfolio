@@ -1,6 +1,5 @@
 export const projects = [
   {
-    id: 1,
     name: 'Sistema de Gestão para Igreja',
     description: 'Sistema institucional e administração de igreja.',
     technologies: ['Java', 'React', 'PostgreSQL', 'Spring Boot'],
@@ -11,7 +10,6 @@ export const projects = [
     demoUrl: 'https://igrejaamareservir.com/',
   },
   {
-    id: 2,
     name: 'Sistema de Administração PetShop',
     description: 'Sistema administrativo para petshop, com controle de estoque, vendas e clientes.',
     technologies: ['Java', 'React', 'PostgreSQL', 'Spring Boot'],
@@ -22,7 +20,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 3,
     name: 'Sistema de Lugar no Evento',
     description: 'Sistema para escolher lugar no evento.',
     technologies: ['Java', 'React', 'PostgreSQL', 'Spring Boot'],
@@ -32,7 +29,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 4,
     name: 'Restauro Rápido',
     description: 'Aplicativo mobile para trabalho da UFU com foco em diminuir o desmatamento.',
     technologies: ['Java', 'Kotlin'],
@@ -42,7 +38,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 5,
     name: 'Lista de Presença para Conferência',
     description: 'Sistema para controle de presença em conferências.',
     technologies: ['Java', 'HTML', 'CSS', 'Spring Boot'],
@@ -52,7 +47,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 6,
     name: 'Lash Designer - Site Institucional para Lash Designer',
     description: 'Site institucional para Lash Designer.',
     technologies: ['React', 'Vite'],
@@ -62,7 +56,6 @@ export const projects = [
     demoUrl: 'https://riquelmy247.github.io/lash-designer/',
   },
   {
-    id: 7,
     name: 'SolDance - Site Institucional para SolDance',
     description: 'Site institucional para SolDance.',
     technologies: ['React', 'Vite'],
@@ -72,7 +65,6 @@ export const projects = [
     demoUrl: 'https://riquelmy247.github.io/soldance/',
   },
   {
-    id: 8,
     name: 'Biocorpore - Site Institucional para Biocorpore',
     description: 'Site institucional para Biocorpore.',
     technologies: ['React', 'Vite'],
@@ -82,7 +74,6 @@ export const projects = [
     demoUrl: 'https://riquelmy247.github.io/biocorpore/',
   },
   {
-    id: 9,
     name: 'Impaccto - Site Institucional para Impaccto',
     description: 'Site institucional para Impaccto.',
     technologies: ['React', 'Vite'],
@@ -92,7 +83,15 @@ export const projects = [
     demoUrl: 'https://riquelmy247.github.io/impaccto/',
   },
   {
-    id: 10,
+    name: 'Felicitá Balões - Site Institucional para Felicitá Balões',
+    description: 'Site institucional para Felicitá Balões.',
+    technologies: ['React', 'Vite'],
+    github: [
+      { label: 'Código', url: 'https://github.com/Riquelmy247/falicita' },
+    ],
+    demoUrl: 'https://riquelmy247.github.io/felicita/',
+  },
+  {
     name: 'Lista de Presença para Conferência',
     description: 'Sistema para controle de presença em conferências.',
     technologies: ['Java', 'HTML', 'CSS', 'Spring Boot'],
@@ -102,7 +101,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 11,
     name: 'Cadastro Dotnet',
     description: 'Sistema simples para cadastro de usuários, utilizando C# e ASP.NET Core.',
     technologies: ['C#', 'ASP.NET', 'HTML', 'CSS'],
@@ -112,7 +110,6 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 12,
     name: 'Universidade Cadastro',
     description: 'Sistema para cadastro de alunos, professores e cursos em uma universidade.',
     technologies: ['Java', 'Spring Boot'],
@@ -122,10 +119,8 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 13,
     name: 'Projetos Simples em Java',
-    description:
-      'Projeto de jogos simples desenvolvidos em Java, incluindo um jogo de adivinhação e um jogo de labirinto.',
+    description: 'Projeto de jogos simples desenvolvidos em Java, incluindo um jogo de adivinhação e um jogo de labirinto.',
     technologies: ['Java'],
     github: [
       { label: 'Repositório', url: 'https://github.com/Riquelmy247/java-dev' },
@@ -133,14 +128,12 @@ export const projects = [
     demoUrl: null,
   },
   {
-    id: 14,
     name: 'Projetos Simples em Python',
-    description:
-      'Projeto de jogos simples desenvolvidos em Python, incluindo um jogo de adivinhação e um jogo de labirinto.',
+    description: 'Projeto de jogos simples desenvolvidos em Python, incluindo um jogo de adivinhação e um jogo de labirinto.',
     technologies: ['Python'],
     github: [
       { label: 'Repositório', url: 'https://github.com/Riquelmy247/python-dev' },
     ],
     demoUrl: null,
   },
-]
+];
