@@ -8,5 +8,5 @@ Minha trajetória inclui desenvolvimento para empresas de diversos segmentos, ig
 
 Trabalho com foco em qualidade, prazos e comunicação clara. Se você precisa de um site, sistema administrativo, agendamento ou solução personalizada, posso ajudar.`,
   whatsappNumber: '5534992308318',
-  avatar: './src/img/foto.jpg',
+  avatar: './logo.png',
 }
